@@ -35,6 +35,16 @@ body {
     margin-right: auto;
 }
 
+.headline {
+    font-weight: 526px;
+    height: 146px;
+}
+
+.subtitle {
+    font-weight: 526px;
+    height: 58px;
+}
+
 a {
     color: var(--clr-primary);
     text-decoration: none;
