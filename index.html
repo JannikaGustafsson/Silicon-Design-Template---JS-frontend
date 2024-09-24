@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
-    <title>Silicon</title>
+    <link rel="shortcut icon" href="/images/logo.svg">
+    <title>Silicon | Mange All Your Money in One App</title>
 </head>
 <body>
 
     <div class="space-y-2">
 
         <header>
-            <div class="container">
-                <a id="logo" href="index.html"><img src="images/logo.svg" alt="Silicon Logotype"></a>
+            <nav class="main-nav" aria-label="main navigation">
+                <a href="#main" class="skip-link">Skip to main content</a>
+
+                <main id="main"></main>
+
+            </nav>
+                <div class="container">
+                <a id="logo" href="index.html">
+                    <img src="images/logo.svg" alt="Silicon Logotype">
+                </a>
                 <nav id="main-menu" class="navbar">
                     <a class="nav-link" href="#">Features</a>
                 </nav>
                 <div id="darkmode-toggle-switch" class="btn-toggle-switch">
-                    <span class="label">Dark mode</span>
+                    <span class="label">Dark Mode</span>
                     <label for="darkmode-switch" class="toggle-switch">
                         <input id="darkmode-switch" type="checkbox">
                         <span class="slider round"></span>
@@ -27,12 +35,17 @@
                     
                 </div>
                 <a id="sign-in" href="#" class="btn-primary">
-                    <i class="fa-solid fa-user"></i>
+                    <img src="/images/icon-sign in.svg" alt="">
                     <span>Sing in / up</span>
                 </a>
-                <button class="btn-mobile">
+                <button class="btn-mobile" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation">
                     <i class="fa-solid fa-bars"></i>
-                </button>   
+                </button>
+
+                <ul id="main-menu">
+                    
+
+                </ul>
                 <div>
                     <h1 class="headline">
                         Manage All Your Money in One App
