@@ -3,91 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous">
     <title>Silicon | Mange All Your Money in One App</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="shortcut icon" href="/images/logo.svg">
 </head>
 <body>
 
-    <div class="space-y-3"></div>
+    <!-- <div class="space-y-3"></div> -->
 
 
     <nav class="main-nav" aria-label="main navigation">
         <a href="#main" class="skip-link">Skip to main content</a>
         
-    </nav>
-    <div class="container">
-        <a href="/">
-            <img src="/images/icons/logo.svg" alt="Silicon Logotype">
-        </a>
-        
-        <div id="darkmode-toggle">
-            <p>Dark Mode</p>
-            <label class="toggle">
-                <input id="darkmode-switch" type="checkbox">
-                <span class="slider"></span>
-            </label>
+        <div class="container">
+            <a href="/">
+                <img src="/images/icons/logo.svg" alt="Silicon Logotype">
+            </a>
+            
+            <div id="darkmode-toggle">
+                <p>Dark Mode</p>
+                <label class="toggle">
+                    <input id="darkmode-switch" type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
-
+            
             <button class="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation">
                 <img src="/images/icons/hamburger.svg" alt="">
             </button>
-
+            
             <ul id="main-menu" class="main-menu hide">
                 <li>
                     <a href="#" class="nav-link">Features</a>
                 </li>
                 <li>
-                <a href="#" class="btn btn-primary">
-                    <img src="/images/icons/icon-signin.svg" alt="">
-                    <span>Sing in / up</span>
-                </a>     
+                    <a href="#" class="btn btn-primary">
+                        <img src="/images/icons/icon-signin.svg" alt="">
+                        <span>Sing in / up</span>
+                    </a>     
                 </li>
             </ul>       
-                
+            
         </div>
     </nav>
     
     <main id="main">
-
-        <script src="script.js"></script>
-
-        <!-- <section aria-label="showcase" class="showcase">
-            <div class="container space-y-3">
-                <h1 class="d-4">Manage All Your Money in One App</h1>
+        
+        <section aria-label="showcase" class="showcase">
+            <div class="container">
+                <div class="container space-y-3">
+                    <h1 class="d-4">Manage All Your Money in One App</h1>
                     <div class="content space-y-3">
-                    <p class="text-lg">We offer you a new generation of the mobile banking.
-                    Save, spend & manage money in your pocket.</p>
-                    <div class="market-btns">
-                    <a href="#" class="store-btn">
-                    <span class="sr-only">Download in App Store</span>
-                    <img src="/images/icons/appstore-light.svg" alt="">
-                    </a>
-                    <a href="#" class="store-btn">
-                    <div class="span sr-only">Get it in Google Play</div>
-                    <img src="/images/icons/googleplay-light.svg" alt="">
-                    </a>
+                        <p class="text-lg">We offer you a new generation of the mobile banking.
+                            Save, spend & manage money in your pocket.</p>                            
+                            <div class="market-btns">
+                                <a href="#" class="store-btn">
+                                    <span class="sr-only">Download on App Store</span>
+                                    <img src="/images/icons/appstore-light.svg" alt="Appstore logo">
+                                </a>
+                                
+                                <a href="#" class="store-btn">
+                                    <div class="span sr-only">Get it on Google Play</div>
+                                    <img src="/images/icons/googleplay-light.svg" alt="Google Play logo">
+                                </a>            
+                            </div>
+                            
+                            <div class="more">
+                                <a href="#features" class="btn-round btn-white">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <span>Discover more</span>
+                            </div>
+                        </div>
+                        <div class="phone-img-container">
+                            <img src="/images/phones.svg" alt="two phones with charts and a creditcard on the screen">
+                            </div>
+                        
+                    </div>
+                </section>
+
+                <section aria-label="our costumers" class="logos">
+                    <div class="container">
+                        <div class="logo-card">
+                            <img src="/images/logos/logoipsum 1.svg" alt="Logoipsum logotype">
+                        </div>
+                        <div class="logo-card">
+                            <img src="/images/logos/logoipsum 2.svg" alt="Logoipsum logotype">
+                        </div>
+                        <div class="logo-card">
+                            <img src="/images/logos/logoipsum 3.svg" alt="Logoipsum logotype">
+                        </div>
+                        <div class="logo-card">
+                            <img src="/images/logos/logoipsum 4.svg" alt="Logoipsum logotype">
+                        </div>
+                        <div class="logo-card">
+                            <img src="/images/logos/logoipsum 5.svg" alt="Logoipsum logotype">
+                        </div>
+                        <div class="logo-card">
+                            <img src="/images/logos/logoipsum 6.svg" alt="Logoipsum logotype">
+                        </div>
+                    </div>
+                </section>
+
+                <section aria-label="App features" class="features">
+                    <div class="container">
+                        <div class="iphone">
+                            <img src="/images/Iphone card.png" alt="an iphone with a creditcard petruding">
+                        </div>
+                        <div class="text">
+                            <h2 class="h1">App Features</h2>
+                            <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.
+
+                                <div class="features-grid">
+
+
+
+                                    <div class="feature-card flex">
+                                        <div class="icon-container">
+                                            <img src="Images/icons/creditcard.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h3 class="h5">Easy Payments</h3>
+                                            <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="feature-card flex">
+                                        <div class="icon-container">
+                                            <img src="Images/icons/security.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h3 class="h5">Data Security</h3>
+                                            <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non. </p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="feature-card flex">
+                                        <div class="icon-container">
+                                            <img src="Images/icons/statistic.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h3 class="h5">Cost Statistics</h3>
+                                            <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="feature-card flex">
+                                        <div class="icon-container">
+                                            <img src="Images/icons/support.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h3 class="h5">Support 24/7</h3>
+                                            <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="feature-card flex">
+                                        <div class="icon-container">
+                                            <img src="Images/icons/cashback.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h3 class="h5">Regular Cashback</h3>
+                                            <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="feature-card flex">
+                                        <div class="icon-container">
+                                            <img src="Images/icons/happy.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h3 class="h5">Top Standards</h3>
+                                            <p>Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis dolor arcu.</p>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="more">
-                    <a href="#features" class="btn btn-round btn-white">
-                    <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-                    <span>Discover more</span>
-                    </div>
-                    </div>
-                    <div class="phone-img-container">
-                    <img src="/images/phones.svg" alt="two phones with charts and a creditvard on the screen">
-                    </div> -->
+                </section>
 
+            </main>
+            
+            <script src="script.js"></script>
+            
+        </nav>
+            
 
 
 
         </div>
 
         </section>
-    </main>
+    
 
                 
     <div>
@@ -99,11 +204,6 @@
 </body>
 </html>
 
-<!-- tips från klasskamrat -->
-<!-- <a href="#" class="appstore">
-    <img id="appstore-mobile" src="/Images/app store mobile.svg" alt="Apple app strore logo">
-    <img id="appstore-tablet" src="/Images/app store tablet.svg" alt="Apple app strore logo">
-    <img id="appstore" src="/Images/appstore.svg" alt="Apple app strore logo">
-</a> -->
+
 
 
