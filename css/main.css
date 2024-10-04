@@ -85,10 +85,7 @@ ol, ul {
     /* @media (width > 1400px) { */
         max-width: 1320px;
     /* }    */
-}
-
-
-  
+}  
     .h1 {
         font-size: 2.5rem;
         color: var(--clr-text-heading);
@@ -213,13 +210,6 @@ ol, ul {
 
 }
 
-/* .darkflex {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-} */
-
-
 /* Navbar start */
 
 .main-navigation {
@@ -259,62 +249,11 @@ ol, ul {
 }
     .container {
         position: relative;
-    }
-    .container,
-    .main-menu  {
         display: flex;
-        align-items: center;       
+        align-items: center; 
     }
-
-    .menu-btn {
-        display: none;
-        background-color: transparent;
-        border: 0;
-        cursor: pointer;
-        padding: .5rem;
-        padding-right: 0;
-        position: absolute;
-        right: 1rem;
-        z-index: 9999;
-    }
-    .main-menu {
-        width: 100%;
-        justify-content: space-between;
-        margin-left: 3rem;
-    }
-  
-
-    /* @media (width <= 992px) { */
-
-        .menu-btn {
-            display: block;
-            .container {
-                position: static;
-            }    
-         
-            .main-menu {
-                position: absolute;
-                top: 100%;
-                right: 0;
-                flex-direction: column-reverse;
-                gap: 1rem;
-                padding-block: 2rem;
-                background-color: var(--clr-bg);
-                z-index: 1000;                   
-                box-shadow: 0 5px 5px #00000028;
-            }
-          
-            .hide {
-                display: none;
-            }    
-            .menu-btn[aria-expanded="true"] ~ .main-menu {
-                animation: openMenu 250 ms forwards
-            }
-            .menu-btn[aria-expanded="false"] ~ .main-menu {
-                animation: closeMenu 250ms forwards;
-            }
-        }     
-    
+               
+           
        
             /* Logos start */
         .logos {
@@ -333,22 +272,22 @@ ol, ul {
                 display: grid;
                 place-items: center;
             }
-            /* @media (width > 768px) { */
+            
                 display: block;
 
                 .logo-card:nth-last-of-type(-n+2) {
                     display: none;
-                } */
-             }
-            /* @media (width > 1200px) { */
+                }
+        }
+            
                 .container {
                     grid-template-columns: repeat(6, 1fr);
                 }
                 .logo-card:nth-last-of-type(-n+2) {
                     display: block;
                 }
-            /* } */
-        /* } */
+            
+        
         /* Logos end */
     /* Navbar end */
 
@@ -372,7 +311,6 @@ ol, ul {
         }
         .store-btn {
             background-color: var(--clr-market-btn);
-            /* width: 100%; */
             padding: .5em 1em;
             border-radius: var(--br-lg);
     
@@ -388,7 +326,7 @@ ol, ul {
             gap: 1rem;
         }
         
-        /* @media (min-width: 768px) { */
+       
             .container {
             position: relative;
         }        
@@ -400,45 +338,16 @@ ol, ul {
         .market-btns {
             flex-direction: row;    
         }    
-        /* .store-btn {
-            padding: 0 1em;
-        }     */
-        /* .more {
-            justify-content: flex-start;
-        }         */
+    
         .phone-img-container {
         
             width: 60%;            
             
         }
-    /* }     */
-        /* @media (width > 992px) {    */
-            /* .store-btn {
-            padding: .3em 2em;
-            }
-            .more {
-                margin-top: 11rem;
-            } 
-            .menu-btn {
-                display: block;
-                .container {
-                    position: static;
-                }                 */
                                   
-        /* } */
-    /* @media (width > 1200px) { */
-            /* padding-top: 10rem; */
-            /* text-align: start; */
+   
             
         }
-
-        /* .text-1 {
-            text-align: start;
-            margin: 2rem 0rem;
-            width: 40%;
-            
-            
-        } */
 
         .text-2 {
             text-align: start;
@@ -480,30 +389,13 @@ ol, ul {
                 border-radius: var(--br-lg);
                 flex-shrink: 0;
             }
-            /* @media (width > 768px) { */
+            
                 .features-grid {
                     grid-template-columns: repeat(2, 1fr);
                     gap: 2rem 3rem;
                 }
             }
-            /* @media (width > 1200px) { */
-                text-align: start;
-                .container {
-                    display: flex;
-                    gap: 4rem;
-                }
-                .iphone-card {
-                    display: block;
-                }
-                .text {
-                    flex: 1;
-                }
-            /* } */
-            /* @media (width > 1400px) { */
-                .container {
-                    gap: 10rem;
-                }
-            /* } */
+          
         /* Features end */
 
         /* Carousel start*/
@@ -617,7 +509,6 @@ header .container {
 
 .phones {
     display: grid;
-    width: ;
 }   
     
 
