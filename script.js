@@ -20,36 +20,36 @@ menuBtn.addEventListener('click', () => {
     }
 })
 
-if(hasSetDarkMode == null) {
-    if(window.matchMedia('(prefers-color-scheme: dark').matches) {
-        enableDarkMode()
-    }else {
-        disableDarkMode()
-    }
+// if(hasSetDarkMode == null) {
+//     if(window.matchMedia('(prefers-color-scheme: dark').matches) {
+//         enableDarkMode()
+//     }else {
+//         disableDarkMode()
+//     }
 
-}   else if (hasSetDarkMode === 'on') {
-    enableDarkMode()
-}   else if (hasSetDarkMode === 'off') {
-    disableDarkMode()
-    }
+// }   else if (hasSetDarkMode === 'on') {
+//     enableDarkMode()
+// }   else if (hasSetDarkMode === 'off') {
+//     disableDarkMode()
+//     }
 
-darkmodeSwitch.addEventListener('change', () => {
-    if(darkmodeSwitch.checked) {
-        document.documentElement.classList.add('dark')
-        localStorage.setItem('darkmode', 'on')
-    }
+// darkmodeSwitch.addEventListener('change', () => {
+//     if(darkmodeSwitch.checked) {
+//         document.documentElement.classList.add('dark')
+//         localStorage.setItem('darkmode', 'on')
+//     }
 
-    else {
-        document.documentElement.classList.remove('dark')
-        localStorage.setItem('darkmode', 'off')
-    }
-})
+//     else {
+//         document.documentElement.classList.remove('dark')
+//         localStorage.setItem('darkmode', 'off')
+//     }
+// })
 
-function enableDarkMode() {
-    darkmodeSwitch.checked = true
-    document.documentElement.classList.add('dark')
-}
-function disableDarkMode() {
-    darkmodeSwitch.checked = false
-    document.documentElement.classList.remove('dark')
-}
+// function enableDarkMode() {
+//     darkmodeSwitch.checked = true
+//     document.documentElement.classList.add('dark')
+// }
+// function disableDarkMode() {
+//     darkmodeSwitch.checked = false
+//     document.documentElement.classList.remove('dark')
+// }

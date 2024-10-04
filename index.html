@@ -9,50 +9,48 @@
     <link rel="shortcut icon" href="/images/logo.svg">
 </head>
 <body>
-
-    <!-- <div class="space-y-3"></div> -->
-
-
-    <nav class="main-nav" aria-label="main navigation">
-        <a href="#main" class="skip-link">Skip to main content</a>
-        
-        <div class="container">
-            <a href="/">
-                <img class="show-light" src="/images/icons/logo.svg" alt="Silicon Logotype">
-                <img class="show-dark" src="/images/icons/logo-dark.svg" alt="Silicon Logotype">
-            </a>
+        <nav class="main-nav" aria-label="main navigation">
+       
             
-            <div id="darkmode-toggle">
-                <p>Dark Mode</p>
-                <label class="toggle">
-                    <input id="darkmode-switch" type="checkbox">
-                    <span class="slider"></span>
-                </label>
+            <div class="container">
+                <a href="/">
+                    <img class="show-light" src="/images/icons/logo.svg" alt="Silicon Logotype">
+                    <img class="show-dark" src="/images/icons/logo-dark.svg" alt="Silicon Logotype">
+                </a>
+                            
+                <button class="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation">
+                    <img src="/images/icons/hamburger.svg" alt="">
+                </button>
+                
+                <ul id="main-menu" class="main-menu hide">
+                    <li>
+                        <a href="#" class="nav-link">Features</a>
+                    </li>
+
+                    <div class="darkflex">
+                        <div id="darkmode-toggle">
+                            <p>Dark Mode</p>
+                            <label class="toggle">
+                                <input id="darkmode-switch" type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <li>
+                            <a href="#" class="btn btn-primary">
+                                <img src="/images/icons/icon-signin.svg" alt="">
+                                <span>Sing in / up</span>
+                            </a>     
+                        </li>
+                    </div>
+                </ul>                
             </div>
-            
-            <button class="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation">
-                <img src="/images/icons/hamburger.svg" alt="">
-            </button>
-            
-            <ul id="main-menu" class="main-menu hide">
-                <li>
-                    <a href="#" class="nav-link">Features</a>
-                </li>
-                <li>
-                    <a href="#" class="btn btn-primary">
-                        <img src="/images/icons/icon-signin.svg" alt="">
-                        <span>Sing in / up</span>
-                    </a>     
-                </li>
-            </ul>       
-            
-        </div>
-    </nav>
+        </nav>
+    
     
     <main id="main">
         
         <section aria-label="showcase" class="showcase">
-            <div class="container space-y-3">
+            <div class="container">
                     <h1 class="d-4">Manage All Your Money in One App</h1>
                     <div class="content space-y-3">
                         <p class="text-lg">We offer you a new generation of the mobile banking.
@@ -86,7 +84,7 @@
                 </section>
 
                 <section aria-label="our costumers" class="logos">
-                    <div class="container">
+                    <div class="logoipsum">
                         <div class="logo-card">
                             <img src="/images/logos/logoipsum 1.svg" alt="Logoipsum logotype">
                         </div>
@@ -230,9 +228,48 @@
     </div>
     <div>
     </div>
+
+    <section>
+        <div>
+            <h4 class="h2">Make your money transfer simple and clear</h4>
+            <div>
+                <img src="/images/icons/check-circle.svg" alt="">
+                <p>Banking transactions are free for you</p>
+            </div>
+            <h4 class="h2">Make your money transfer simple and clear</h4>
+            <div>
+                <img src="/images/icons/check-circle.svg" alt="">
+                <p>Banking transactions are free for you</p>
+            </div>
+            <h4 class="h2">No monthly cash commission</h4>
+            <div>
+                <img src="/images/icons/check-circle.svg" alt="">
+                <p>Manage payments and transactions online</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
 
 
 
 
+<nav class="navbar">
+    <div class="flexbox">
+      <a href="#"><img class="silicon" src="/images/silicon.svg" alt="">
+      </a>
+      <a id="Features" href="#"><span>Features</span>
+      </a>
+    </div>
+    <div class="flexbox">
+      <li class="toggle"><span class="slider-text">Dark Mode</span>
+        <label class="switch">
+          <input type="checkbox" onclick="darkmodetoggle()">
+          <span class="slider round"></span>
+        </label>
+      </li>
+
+      <button class="signinup"><img src="images/signupicon.svg" alt="sign up icon"><a href=#>Sign in / up</a>
+      </button>
+    </div>
+  </nav>
